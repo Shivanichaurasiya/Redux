@@ -5,12 +5,14 @@ import Counter from "./components/Counter"
 import FunClick from "./components/FunClick"
 import ClassClick from "./components/ClassClick"
 import EventBind from "./components/EventBind"
+import ParentComponent from "./components/ParentComponent"
 
 function App() {
   
 
   return (
     <>
+    <ParentComponent/>
     <EventBind/>
     <ClassClick/>
     <FunClick/>
