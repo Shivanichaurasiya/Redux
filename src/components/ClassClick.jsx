@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
 class ClassClick extends Component {
+    handleClick(){
+        console.log("button click by class handler")
+    }
   render() {
     return (
       <div>
-        <button>Class Click</button>
+        <button onClick={this.handleClick}>Class Click</button>
         
       </div>
     )

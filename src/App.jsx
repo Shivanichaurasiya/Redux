@@ -4,12 +4,14 @@ import Message from "./components/Message"
 import Counter from "./components/Counter"
 import FunClick from "./components/FunClick"
 import ClassClick from "./components/ClassClick"
+import EventBind from "./components/EventBind"
 
 function App() {
   
 
   return (
     <>
+    <EventBind/>
     <ClassClick/>
     <FunClick/>
     <Counter/>
