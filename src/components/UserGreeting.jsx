@@ -35,13 +35,14 @@ import React, { Component } from 'react'
 
     
     return (
+        this.state.isLoggedIn &&  <div>Welcome  Vishvas</div>
       
-        this.state.isLoggedIn?
-        (
-            <div>welcome vishvas</div>
-        ):(
-            <div>welcome Guest</div>
-        )
+        // this.state.isLoggedIn?
+        // (
+        //     <div>welcome vishvas</div>
+        // ):(
+        //     <div>welcome Guest</div>
+        // )
         
      
     )
