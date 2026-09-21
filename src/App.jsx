@@ -6,17 +6,19 @@ import FunClick from "./components/FunClick"
 import ClassClick from "./components/ClassClick"
 import EventBind from "./components/EventBind"
 import ParentComponent from "./components/ParentComponent"
+import UserGreeting from "./components/UserGreeting"
 
 function App() {
   
 
   return (
     <>
-    <ParentComponent/>
+    <UserGreeting/>
+    {/* <ParentComponent/>
     <EventBind/>
     <ClassClick/>
     <FunClick/>
-    <Counter/>
+    <Counter/> */}
     {/* <Message/>
     <Greet name="shivani" heroName="srk"/>
     <Greet name="alice" heroName="Akshay"/>
