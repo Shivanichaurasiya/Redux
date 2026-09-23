@@ -9,6 +9,7 @@ import ParentComponent from "./components/ParentComponent"
 import UserGreeting from "./components/UserGreeting"
 import NameList from "./components/NameList"
 import StyleSheet from "./components/StyleSheet"
+import Form from "./components/Form"
 // import Inline from "./components/Inline";
 
 
@@ -18,7 +19,8 @@ function App() {
 
   return (
     <>
-    <Inline/>
+    <Form/>
+    {/* <Inline/> */}
     <StyleSheet primary={true}/>
     
     {/* <NameList/>
