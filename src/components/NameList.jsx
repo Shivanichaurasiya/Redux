@@ -60,13 +60,13 @@
 // export default NameList
 
 import React from 'react'
-import Person from '.Person'
+import Person from './Person'
 
 const NameList = () => {
 
   // const names = ['shivani', 'ruhi', 'sonali']
 
-  const names =['anshu','roshni','sidharth','soni']
+  const names =['rohit','anshu','roshni','sidharth','soni']
 
   const persons = [
     {
@@ -109,13 +109,15 @@ const NameList = () => {
 //     <Person key={person.id} person={person} />
 //   ))
 
-const nameList = names.map(name=>(
-    <h2></h2>
+const nameList = names.map((name,index)=>(
+    <h2 key={index}>{index}-{name}</h2>
 ))
 
   return (
     <>
-      {personList}
+      {/* {personList} */}
+      <div>{nameList}</div>
+
 
       {/* {nameList} */}
     </>
