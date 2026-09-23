@@ -8,6 +8,9 @@ import EventBind from "./components/EventBind"
 import ParentComponent from "./components/ParentComponent"
 import UserGreeting from "./components/UserGreeting"
 import NameList from "./components/NameList"
+import StyleSheet from "./components/StyleSheet"
+// import Inline from "./components/Inline";
+
 
 
 function App() {
@@ -15,9 +18,11 @@ function App() {
 
   return (
     <>
+    <Inline/>
+    <StyleSheet primary={true}/>
     
-    <NameList/>
-    <UserGreeting/>
+    {/* <NameList/>
+    <UserGreeting/> */}
     {/* <ParentComponent/>
     <EventBind/>
     <ClassClick/>
